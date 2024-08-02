@@ -1,5 +1,5 @@
 import axios from 'axios'
-const BASE_URL = "https://park-easy-server-sc3i.onrender.com"
+const BASE_URL = "https://park-easy-server.onrender.com"
 // const BASE_URL = "http://localhost:5000/" 
 
 export const fetchParkings = async ({ user_id, country, city, address, setParkings}) => {
